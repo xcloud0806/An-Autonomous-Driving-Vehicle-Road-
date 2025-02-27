@@ -1,0 +1,74 @@
+{
+    "preprocess": {
+        "frames_path": "/data_cold2/origin_data/sihao_2xx71/custom_frame/brli_frwang_debug/20240125",
+        "segment_path": "/data_cold2/origin_data/sihao_2xx71/custom_seg/brli_frwang_debug/20240125",
+        "calibration_path": "/data_autodrive/auto/calibration/sihao_2xx71/20240118",
+        "seg_mode": "luce",
+        "seg_value": 700,
+        "mindistance": 200,
+        "maxtime": 60,
+        "interval": 1,
+        "target_anno_output": "/data_autodrive/auto/custom/brli_frwang_debug",
+        "car": "sihao_2xx71",
+        "force": "True"
+    },
+    "multi_seg": {
+        "enable": "False",
+        "origin_coll_path": "/data_cold2/origin_data/sihao_27en6/custom_coll/frwang_chadaohuichu/20240301"
+    },
+    "odometry": {
+        "pattern": 0
+    },
+    "reconstruction": {
+        "enable": "True",
+        "version": "2",
+        "map_camera_name": "ofilm_surround_front_120_8M",
+        "map_camera_name_add": "ofilm_surround_rear_100_2M",
+        "min_distance": 150,
+        "distance": 250,
+        "extern_distance": 150,
+        "extern_frame_distance": 175,
+        "resolution": [
+            0.05,
+            0.1,
+            0.5
+        ],
+        "gpuid": 0
+    },
+    "annotation": {
+        "clip_lane": "/data_autodrive/auto/custom/brli_frwang_debug/sihao_2xx71/brli_frwang_debug/clip_lane/20240125",
+        "clip_obstacle": "/data_autodrive/auto/custom/brli_frwang_debug/sihao_2xx71/brli_frwang_debug/clip_obstacle/20240125",
+        "clip_obstacle_test": "/data_autodrive/auto/custom/brli_frwang_debug/sihao_2xx71/brli_frwang_debug/clip_obstacle_test/20240125",
+        "clip_check": "/data_autodrive/auto/custom/brli_frwang_debug/sihao_2xx71/brli_frwang_debug/clip_check/20240125",
+        "test_gnss_info": "test_roads_gnss_info.json"
+    },
+    "deploy": {
+        "clip_submit": "/data_autodrive/auto/custom/brli_frwang_debug/sihao_2xx71/brli_frwang_debug/clip_submit",
+        "clip_submit_data": "/data_autodrive/auto/custom/brli_frwang_debug/sihao_2xx71/brli_frwang_debug/clip_submit/data",
+        "data_subfix": "20240125",
+        "tgt_rdg_path": "/train30/cv2/permanent/brli/brli_frwang_debug/sihao_2xx71/data",
+        "tgt_rdg_anno_path": "/train30/cv2/permanent/brli/brli_frwang_debug/sihao_2xx71/annos",
+        "tgt_rdg_anno_abk_tmp": "/train30/cv2/permanent/brli/brli_frwang_debug/sihao_2xx71/annos_abk",
+        "tgt_rdg_anno_autolabel_tmp": "/train30/cv2/permanent/brli/brli_frwang_debug/sihao_2xx71/annos_autolabel",
+        "tgt_rdg_deploy_path": "/train30/cv2/permanent/brli/brli_frwang_debug/sihao_2xx71/deploy"
+    },
+    "ripples_platform": {
+        "abk_mark_result": {
+            "clip_obstacle_annotation": "/data_autodrive/auto/custom/sihao_0fx60/brli_frwang_debug/clip_obstacle_annotation/20231129",
+            "clip_lane_annotation": "/data_autodrive/auto/custom/brli_frwang_debug/sihao_2xx71/brli_frwang_debug/clip_lane_annotation/"
+        },
+        "data_process_type_list": [
+            "CONTINUOUS_FRAMES",
+            "LANE_LINE"
+        ],
+        "mark_flow_list": [
+            "MARK_ABK"
+        ]
+    },
+    "ripples_platform_demand": {
+        "frames_path": "/data_cold2/origin_data/sihao_2xx71/custom_frame/brli_frwang_debug/20240125",
+        "calibration_path": "/data_autodrive/auto/calibration/sihao_2xx71/20240118",
+        "target_anno_output": "/data_autodrive/auto/custom/",
+        "car_name": "sihao_2xx71"
+    }
+}

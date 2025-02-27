@@ -1,0 +1,3906 @@
+[
+  {
+    "id": "646c248c00af0873e22796c1",
+    "name": "感知算法评测",
+    "enName": "perception algorithm evaluation label system",
+    "match": false,
+    "children": [
+      {
+        "id": "646c2544ffb1eb7a3fe8ceee",
+        "name": "外界环境",
+        "enName": "external environment",
+        "match": false,
+        "children": [
+          {
+            "id": "646c263a00af0873e22796c7",
+            "name": "光线",
+            "enName": "light",
+            "match": false,
+            "children": [
+              {
+                "id": "646c266cffb1eb7a3fe8cef6",
+                "name": "正常",
+                "enName": "normal",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2675ffb1eb7a3fe8cef7",
+                "name": "过曝光",
+                "enName": "overexposure",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c267d00af0873e22796c9",
+                "name": "过欠光",
+                "enName": "underexposed",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c2629ffb1eb7a3fe8cef3",
+            "name": "时间",
+            "enName": "time",
+            "match": false,
+            "children": [
+              {
+                "id": "646dbb5534b4ed1162bf0ad4",
+                "name": "夜晚",
+                "enName": "night",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbb2934b4ed1162bf0ad2",
+                "name": "中午",
+                "enName": "noon",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbb44d6e0f71039f38691",
+                "name": "傍晚",
+                "enName": "evening",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbb3434b4ed1162bf0ad3",
+                "name": "下午",
+                "enName": "afternoon",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbb1634b4ed1162bf0ad1",
+                "name": "上午",
+                "enName": "morning",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c255fffb1eb7a3fe8cef0",
+            "name": "天气",
+            "enName": "weather",
+            "match": false,
+            "children": [
+              {
+                "id": "646c260bffb1eb7a3fe8cef2",
+                "name": "阴天",
+                "enName": "cloudy day",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c260b00af0873e22796c6",
+                "name": "雪天",
+                "enName": "snowy day",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c260affb1eb7a3fe8cef1",
+                "name": "雨天",
+                "enName": "rainy day",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c260b00af0873e22796c5",
+                "name": "雾天",
+                "enName": "foggy day",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c260a00af0873e22796c4",
+                "name": "晴天",
+                "enName": "sunny day",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "646c254400af0873e22796c3",
+        "name": "车道线检测",
+        "enName": "lane line condition",
+        "match": false,
+        "children": [
+          {
+            "id": "646c2cb7d6e0f71039f3831a",
+            "name": "车道线类型",
+            "enName": "lane line types",
+            "match": false,
+            "children": [
+              {
+                "id": "646c2d3134b4ed1162bf075c",
+                "name": "普通车道线",
+                "enName": "regular lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d31d6e0f71039f3831b",
+                "name": "边沿线",
+                "enName": "sideline lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d3134b4ed1162bf075d",
+                "name": "车道中心线",
+                "enName": "centerline lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d32d6e0f71039f38320",
+                "name": "引导线",
+                "enName": "guideline lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d32d6e0f71039f3831e",
+                "name": "分离线",
+                "enName": "separate lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d32d6e0f71039f3831d",
+                "name": "专用车道线",
+                "enName": "dedicated lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d32d6e0f71039f3831f",
+                "name": "缓行线",
+                "enName": "slow-moving lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d3234b4ed1162bf0760",
+                "name": "直行待转弯线",
+                "enName": "straight-through and turning lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d3134b4ed1162bf075e",
+                "name": "中心圈",
+                "enName": "center circle lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d3234b4ed1162bf0761",
+                "name": "禁停线",
+                "enName": "no parking zone lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d3234b4ed1162bf075f",
+                "name": "聚合线",
+                "enName": "aggregate lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d31d6e0f71039f3831c",
+                "name": "网状线",
+                "enName": "mesh lane line",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c2acfd6e0f71039f3830b",
+            "name": "车道线数量",
+            "enName": "number of lane lines",
+            "match": false,
+            "children": [
+              {
+                "id": "646c2ad934b4ed1162bf074f",
+                "name": "0",
+                "enName": "no lane lines",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2aded6e0f71039f3830c",
+                "name": "1",
+                "enName": "one lane line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2aef34b4ed1162bf0751",
+                "name": "4",
+                "enName": "four lane lines",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2ae434b4ed1162bf0750",
+                "name": "2",
+                "enName": "two lane lines",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2aead6e0f71039f3830d",
+                "name": "3",
+                "enName": "three lane lines",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c2afed6e0f71039f3830e",
+            "name": "车道线位置",
+            "enName": "lane line position",
+            "match": false,
+            "children": [
+              {
+                "id": "646c2c6ed6e0f71039f38317",
+                "name": "左一二三四车道线",
+                "enName": "the lane lines for the first, second, third, and fourth lanes on the left side.",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c6ed6e0f71039f38318",
+                "name": "车道线合并",
+                "enName": "lane line merging",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c6e34b4ed1162bf0759",
+                "name": "中间车道线（车辆压线）",
+                "enName": "the middle lane line with vehicles overtaking each other",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c6e34b4ed1162bf075a",
+                "name": "右一二三四车道线",
+                "enName": "the lane lines for the first, second, third, and fourth lanes on the right side",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c6ed6e0f71039f38319",
+                "name": "车道线1分2",
+                "enName": "lane line 1-2",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c2d1634b4ed1162bf075b",
+            "name": "车道线线型",
+            "enName": "lane line patterns",
+            "match": false,
+            "children": [
+              {
+                "id": "646c2d32d6e0f71039f38321",
+                "name": "单实线",
+                "enName": "single solid line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d33d6e0f71039f38323",
+                "name": "左实线右虚线",
+                "enName": "left solid line and right dotted line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d3334b4ed1162bf0764",
+                "name": "左虚线右实线",
+                "enName": "left dotted line and right solid line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d33d6e0f71039f38324",
+                "name": "短虚线",
+                "enName": "short dotted line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d3234b4ed1162bf0763",
+                "name": "双实线",
+                "enName": "double solid line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d32d6e0f71039f38322",
+                "name": "双虚线",
+                "enName": "double dotted line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d3234b4ed1162bf0762",
+                "name": "单虚线",
+                "enName": "single dotted line",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c2a6dd6e0f71039f38308",
+            "name": "道路类型",
+            "enName": "road type",
+            "match": false,
+            "children": [
+              {
+                "id": "646c2aa434b4ed1162bf074d",
+                "name": "国道",
+                "enName": "national highway",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2a7834b4ed1162bf074a",
+                "name": "高速路",
+                "enName": "highway",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2a8e34b4ed1162bf074b",
+                "name": "盘山路",
+                "enName": "mountain road",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2a80d6e0f71039f38309",
+                "name": "公路",
+                "enName": "road",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2a9c34b4ed1162bf074c",
+                "name": "高环",
+                "enName": "high circular",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2ab934b4ed1162bf074e",
+                "name": "环岛",
+                "enName": "island roundabout",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2aafd6e0f71039f3830a",
+                "name": "乡道",
+                "enName": "rural road",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbbfbd6e0f71039f38692",
+                "name": "省道",
+                "enName": "provincial highway",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbbdd34b4ed1162bf0ad5",
+                "name": "高架",
+                "enName": "high elevated highway",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c2df8d6e0f71039f3832b",
+            "name": "车道线曲率半径",
+            "enName": "curb radius",
+            "match": false,
+            "children": [
+              {
+                "id": "646c2e26d6e0f71039f3832d",
+                "name": "<50m",
+                "enName": "less than 50 meters",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2e18d6e0f71039f3832c",
+                "name": ">50m",
+                "enName": "greater than 50 meters",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c2d5a34b4ed1162bf0765",
+            "name": "车道线颜色",
+            "enName": "lane line colors",
+            "match": false,
+            "children": [
+              {
+                "id": "646c2d9b34b4ed1162bf0768",
+                "name": "灰色",
+                "enName": "gray",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d9b34b4ed1162bf0766",
+                "name": "白色",
+                "enName": "white",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d9bd6e0f71039f38327",
+                "name": "橘色",
+                "enName": "orange",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d9b34b4ed1162bf0769",
+                "name": "其他",
+                "enName": "other",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d9bd6e0f71039f38326",
+                "name": "绿色",
+                "enName": "green",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d9bd6e0f71039f38325",
+                "name": "蓝色",
+                "enName": "blue",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2d9b34b4ed1162bf0767",
+                "name": "黄色",
+                "enName": "yellow",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c2db634b4ed1162bf076a",
+            "name": "车道线构成",
+            "enName": "lane line construction",
+            "match": false,
+            "children": [
+              {
+                "id": "646c2de134b4ed1162bf076c",
+                "name": "围栏",
+                "enName": "fencing",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2de234b4ed1162bf076d",
+                "name": "遮棚",
+                "enName": "canopies",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2de1d6e0f71039f38328",
+                "name": "正常",
+                "enName": "normal",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2de234b4ed1162bf076e",
+                "name": "锥桶连线",
+                "enName": "beam-and-column connections with cone buckets",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2de1d6e0f71039f3832a",
+                "name": "墙",
+                "enName": "walls",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2de1d6e0f71039f38329",
+                "name": "由混凝土屏障组成",
+                "enName": "made up of concrete barriers",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2de134b4ed1162bf076b",
+                "name": "由护栏组成",
+                "enName": "made up of guardrails",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c2e3cd6e0f71039f3832e",
+            "name": "车道线特征",
+            "enName": "lane line features",
+            "match": false,
+            "children": [
+              {
+                "id": "646c2e6334b4ed1162bf0770",
+                "name": "车道线被遮挡（车、静态障碍物等）",
+                "enName": "blocked by vehicles or static obstacles",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2e47d6e0f71039f3832f",
+                "name": "清晰",
+                "enName": "clear",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2e4f34b4ed1162bf076f",
+                "name": "被磨损",
+                "enName": "worn",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2e6ed6e0f71039f38331",
+                "name": "地面印刷物干扰",
+                "enName": "interfered by printed materials on the ground",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2e57d6e0f71039f38330",
+                "name": "污渍较多",
+                "enName": "stained",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "646c254400af0873e22796c2",
+        "name": "自车状态",
+        "enName": "self driving status",
+        "match": false,
+        "children": [
+          {
+            "id": "646c27ab00af0873e22796d2",
+            "name": "速度",
+            "enName": "speed",
+            "match": false,
+            "children": [
+              {
+                "id": "646c2a2934b4ed1162bf0748",
+                "name": "加速",
+                "enName": "accelerate",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2a4ed6e0f71039f38307",
+                "name": "快速",
+                "enName": "fast speed",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2a5834b4ed1162bf0749",
+                "name": "静止",
+                "enName": "stop",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2a36d6e0f71039f38305",
+                "name": "减速",
+                "enName": "slow down",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2a44d6e0f71039f38306",
+                "name": "慢速",
+                "enName": "slow speed",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c29f934b4ed1162bf0747",
+                "name": "正常",
+                "enName": "normal speed",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c2729ffb1eb7a3fe8cef8",
+            "name": "行车状态",
+            "enName": "vehiclemovingstatus",
+            "match": false,
+            "children": [
+              {
+                "id": "646c2c55d6e0f71039f38312",
+                "name": "变道后超车",
+                "enName": "overtakingafterchanginglanes",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c54d6e0f71039f38311",
+                "name": "主路入匝道",
+                "enName": "mainroadonramp",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c5534b4ed1162bf0754",
+                "name": "超车后变道",
+                "enName": "overtakingandchanginglanes",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c5534b4ed1162bf0757",
+                "name": "十字路口转弯",
+                "enName": "makeaturnatacrossroads",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c5534b4ed1162bf0758",
+                "name": "过十字路口",
+                "enName": "goacrossacrossroads",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c55d6e0f71039f38313",
+                "name": "入隧道",
+                "enName": "enteratunnel",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c55d6e0f71039f38314",
+                "name": "出隧道",
+                "enName": "exitatunnel",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c55d6e0f71039f38315",
+                "name": "别车",
+                "enName": "befollowedbyanothercar",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c54d6e0f71039f38310",
+                "name": "掉头",
+                "enName": "turnaround",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c5534b4ed1162bf0755",
+                "name": "路过桥梁",
+                "enName": "passabridge",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c5434b4ed1162bf0752",
+                "name": "过收费站",
+                "enName": "passingtollstations",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c55d6e0f71039f38316",
+                "name": "被别车",
+                "enName": "followedbyanothercar",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c5534b4ed1162bf0756",
+                "name": "倒车reverse",
+                "enName": "parking",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c54d6e0f71039f3830f",
+                "name": "正常行驶",
+                "enName": "normaldriving",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c2c5434b4ed1162bf0753",
+                "name": "出匝道进主路",
+                "enName": "offrampintomainroad",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "646c2544ffb1eb7a3fe8ceef",
+        "name": "障碍物检测",
+        "enName": "obstacle condition",
+        "match": false,
+        "children": [
+          {
+            "id": "646c316c34b4ed1162bf079b",
+            "name": "障碍物距离（车）",
+            "enName": "distance of obstacles from the vehicle",
+            "match": false,
+            "children": [
+              {
+                "id": "646c31ac34b4ed1162bf079c",
+                "name": "<30m",
+                "enName": "less than 30m",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c31acd6e0f71039f38359",
+                "name": "30~60m",
+                "enName": "between 30 and 60m",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c31acd6e0f71039f3835a",
+                "name": "80~100m",
+                "enName": "between 80 and 100m",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c31acd6e0f71039f3835b",
+                "name": "大于100m",
+                "enName": "more than 100m",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c31ac34b4ed1162bf079d",
+                "name": "60~80m",
+                "enName": "between 60 and 80m",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c300cd6e0f71039f3833f",
+            "name": "障碍物状态（车、骑车人）",
+            "enName": "obstacle status (cars、cyclists)",
+            "match": false,
+            "children": [
+              {
+                "id": "646c303b34b4ed1162bf0785",
+                "name": "被别车",
+                "enName": "being blocked by other cars、cyclists",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303a34b4ed1162bf0781",
+                "name": "超车",
+                "enName": "overtaking",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303b34b4ed1162bf0787",
+                "name": "入隧道",
+                "enName": "entering a tunnel",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303ad6e0f71039f38340",
+                "name": "掉头",
+                "enName": "turning around",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303bd6e0f71039f38345",
+                "name": "变道后超车",
+                "enName": "overtaking after changing lanes",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303bd6e0f71039f38347",
+                "name": "出隧道",
+                "enName": "exiting a tunnel",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303a34b4ed1162bf0780",
+                "name": "正常行驶",
+                "enName": "driving normally",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303a34b4ed1162bf0784",
+                "name": "十字路口转弯",
+                "enName": "making a turn at a crossroads",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303ad6e0f71039f38342",
+                "name": "过收费站",
+                "enName": "passing toll station",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303ad6e0f71039f38343",
+                "name": "倒车",
+                "enName": "backing up",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303ad6e0f71039f38341",
+                "name": "变道",
+                "enName": "changing lanes",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303bd6e0f71039f38344",
+                "name": "别车",
+                "enName": "making a turn at a crossroads",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303a34b4ed1162bf0782",
+                "name": "出匝道进主路",
+                "enName": "exiting off-ramp and entering main road",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303a34b4ed1162bf0783",
+                "name": "主路入匝道",
+                "enName": "entering off-ramp from main road",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303b34b4ed1162bf0786",
+                "name": "超车后变道",
+                "enName": "changing lanes after overtaking",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303bd6e0f71039f38346",
+                "name": "路过桥梁",
+                "enName": "passing over a bridge",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c303b34b4ed1162bf0788",
+                "name": "过十字路口",
+                "enName": "making a turn at a crossroads",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c313234b4ed1162bf0797",
+            "name": "障碍物数量",
+            "enName": "number of obstacles",
+            "match": false,
+            "children": [
+              {
+                "id": "646c315034b4ed1162bf0798",
+                "name": "暂无要求",
+                "enName": "no requirements obstacle",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c3151d6e0f71039f38357",
+                "name": ">3",
+                "enName": "more than three obstacles",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c3150d6e0f71039f38356",
+                "name": "1",
+                "enName": "one obstacle",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c315034b4ed1162bf0799",
+                "name": "2",
+                "enName": "two obstacles",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c315034b4ed1162bf079a",
+                "name": "3",
+                "enName": "three obstacles",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c317dd6e0f71039f38358",
+            "name": "障碍物距离（行人、骑车人）",
+            "enName": "distance of obstacles from pedestrians、cyclists",
+            "match": false,
+            "children": [
+              {
+                "id": "646c31acd6e0f71039f3835c",
+                "name": "大于100m",
+                "enName": "more than 100m",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c31ac34b4ed1162bf079f",
+                "name": "70~100m",
+                "enName": "between 70 and 100m",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c31ac34b4ed1162bf079e",
+                "name": "30~70m",
+                "enName": "between 30 and 70m",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c309ed6e0f71039f3834c",
+            "name": "自车与障碍物状态",
+            "enName": "status of self-driving car and obstacle",
+            "match": false,
+            "children": [
+              {
+                "id": "646c30cb34b4ed1162bf078e",
+                "name": "绝对静止",
+                "enName": "absolute stationary",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c30cbd6e0f71039f3834e",
+                "name": "自车运动障碍物静止",
+                "enName": "self-driving car is moving while obstacle is stationary",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c30cb34b4ed1162bf078d",
+                "name": "相对静止",
+                "enName": "relatively stationary",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c30cbd6e0f71039f3834d",
+                "name": "自车静止障碍物运动",
+                "enName": "self-driving car is stationary while obstacle is moving",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c2e80d6e0f71039f38332",
+            "name": "障碍物类型",
+            "enName": "obstacle type",
+            "match": false,
+            "children": [
+              {
+                "id": "6582bab9fcdb84693cd9c636",
+                "name": "小轿车（包含SUV）",
+                "enName": "small car (including suv)",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bb0c221a024f89241688",
+                "name": "面包车",
+                "enName": "van",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bb4dfcdb84693cd9c63f",
+                "name": "厢式货车（含汽车运输车）",
+                "enName": "box truck (including truck for transportation)",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bb7f221a024f8924168b",
+                "name": "大型客车（巴士）",
+                "enName": "large bus",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bba0fcdb84693cd9c643",
+                "name": "卡车",
+                "enName": "ftruck",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bbbffcdb84693cd9c644",
+                "name": "拖车",
+                "enName": "trailer",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bbeefcdb84693cd9c647",
+                "name": "挖掘机",
+                "enName": "excavator",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bc77fcdb84693cd9c64e",
+                "name": "老人",
+                "enName": "elderly person",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bc94221a024f89241696",
+                "name": "中年人",
+                "enName": "aged person",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bcb2fcdb84693cd9c652",
+                "name": "小孩",
+                "enName": "child",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bcfafcdb84693cd9c655",
+                "name": "摩托车",
+                "enName": "motorcycle",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bd38221a024f8924169d",
+                "name": "电瓶车、自行车",
+                "enName": "electric bike、motorcycle",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bd6e221a024f892416a1",
+                "name": "三轮车",
+                "enName": "three-wheeled vehicle",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bd99221a024f892416a4",
+                "name": "锥桶",
+                "enName": "triangular bucket",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bda5fcdb84693cd9c660",
+                "name": "隔离墩",
+                "enName": "barricade",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bdb1221a024f892416a5",
+                "name": "临时指示牌",
+                "enName": "temporary signboard",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bdbbfcdb84693cd9c662",
+                "name": "路灯",
+                "enName": "street lamp",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bdc4221a024f892416a7",
+                "name": "广告牌",
+                "enName": "advertising board",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bdccfcdb84693cd9c665",
+                "name": "栅栏",
+                "enName": "fence",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bddefcdb84693cd9c666",
+                "name": "红绿灯",
+                "enName": "red and green light",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582bdfa221a024f892416aa",
+                "name": "飞鸟等",
+                "enName": "birds, etc",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582be09fcdb84693cd9c667",
+                "name": "未知静态障碍物",
+                "enName": "unknown static obstacle",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c3053d6e0f71039f38348",
+            "name": "障碍物速度（车、行人、骑车人）",
+            "enName": "obstacle speed (cars、pedestrians、cyclists)",
+            "match": false,
+            "children": [
+              {
+                "id": "646c3081d6e0f71039f38349",
+                "name": "正常",
+                "enName": "normal speed",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c3081d6e0f71039f3834a",
+                "name": "慢速",
+                "enName": "driving or walking at a slow pace",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c308134b4ed1162bf078b",
+                "name": "快速",
+                "enName": "driving or walking at a fast pace",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c3081d6e0f71039f3834b",
+                "name": "静止",
+                "enName": "at a standstill",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c308134b4ed1162bf078a",
+                "name": "减速",
+                "enName": "decelerating",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c308134b4ed1162bf0789",
+                "name": "加速",
+                "enName": "accelerating",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c308134b4ed1162bf078c",
+                "name": "紧急刹停",
+                "enName": "making an emergency stop",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "646c30e434b4ed1162bf078f",
+            "name": "自车与障碍物（车、行人、骑车人）相对位置",
+            "enName": "relative position of self-driving car and obstacle (cars、pedestrians、cyclists)",
+            "match": false,
+            "children": [
+              {
+                "id": "646dc0be34b4ed1162bf0ada",
+                "name": "目标车前方有更大的目标车",
+                "enName": "there is a larger target car in front of the target car.",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbf87d6e0f71039f38697",
+                "name": "在自车左前方：迎面前行",
+                "enName": "approaching head-on on the left side of self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dc0fa34b4ed1162bf0adb",
+                "name": "自车与障碍物有部分重叠（25%）",
+                "enName": "self-driving car and obstacle have some overlap (25%)",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dc13534b4ed1162bf0adc",
+                "name": "自车与障碍物有部分重叠（75%）",
+                "enName": "self-driving car and obstacle have some overlap (75%)",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c311834b4ed1162bf0792",
+                "name": "在自车正前方：迎面前行",
+                "enName": "approaching head-on",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbe38d6e0f71039f38695",
+                "name": "在自车左前方：同向前行",
+                "enName": "moving forward together on the left side of self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbe6bd6e0f71039f38696",
+                "name": "在自车右前方：同向前行",
+                "enName": "moving forward together on the right side of self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c311734b4ed1162bf0790",
+                "name": "暂无要求",
+                "enName": "no requirements.",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c311734b4ed1162bf0791",
+                "name": "在自车正前方：与自车斜向穿行",
+                "enName": "traversing at an angle to the front of self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c3117d6e0f71039f38350",
+                "name": "在自车正前方：与自车垂直穿行",
+                "enName": "traversing vertically in front of self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbfec34b4ed1162bf0ad8",
+                "name": "在自车右侧：同向前行",
+                "enName": "moving forward together on the right side of self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dc11bd6e0f71039f3869c",
+                "name": "自车与障碍物有部分重叠（50%）",
+                "enName": "self-driving car and obstacle have some overlap (50%)",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbfcd34b4ed1162bf0ad7",
+                "name": "在自车左侧：同向前行",
+                "enName": "moving forward together on the left side of self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dc01334b4ed1162bf0ad9",
+                "name": "在自车左侧：迎面前行",
+                "enName": "approaching head-on on the left side of self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646c3117d6e0f71039f3834f",
+                "name": "在自车正前方：同向前行",
+                "enName": "moving forward at the same pace as self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dc084d6e0f71039f38699",
+                "name": "拥挤道路，目标车与自车距离过近，摄像头仅能捕捉部分画面",
+                "enName": "in crowded road, the target car and self-driving car are too close, and the camera can only capture part of the screen",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dbfa534b4ed1162bf0ad6",
+                "name": "在自车右前方：迎面前行",
+                "enName": "approaching head-on on the right side of self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dc036d6e0f71039f38698",
+                "name": "在自车右侧：迎面前行",
+                "enName": "approaching head-on on the right side of self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dc0a6d6e0f71039f3869a",
+                "name": "行人在目标车与自车之间来回横穿",
+                "enName": "pedestrian is crossing back and forth between the target car and self-driving car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "646dc0dad6e0f71039f3869b",
+                "name": "前方弯道上的目标车",
+                "enName": "target car on the bend ahead",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6476bac527a11d0166efc936",
+    "name": "智驾功能测试",
+    "enName": "Test Issue Label System",
+    "match": false,
+    "children": [
+      {
+        "id": "6476bcc849ad2d005bc6e471",
+        "name": "泊车",
+        "enName": "parking",
+        "match": false,
+        "children": [
+          {
+            "id": "6476bcf827a11d0166efc964",
+            "name": "泊车接管类",
+            "enName": "takeover class",
+            "match": false,
+            "children": [
+              {
+                "id": "6476bd5f27a11d0166efc969",
+                "name": "⾏⼈碰撞⻛险",
+                "enName": "pedestrian collision hazard",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5f49ad2d005bc6e478",
+                "name": "柱⼦碰撞⻛险",
+                "enName": "column collision hazard",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5f27a11d0166efc96b",
+                "name": "莫名放弃泊⻋",
+                "enName": "forgotten to park the car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5f49ad2d005bc6e479",
+                "name": "车身压库位边线",
+                "enName": "the car has accidentally hit the side line of the parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5f27a11d0166efc96c",
+                "name": "车头过于凸出",
+                "enName": "the car’s head is too close to the edge of the road",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5f49ad2d005bc6e47c",
+                "name": "程序崩溃",
+                "enName": "program crashes",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5e27a11d0166efc968",
+                "name": "碾压路沿⻛险",
+                "enName": "rollover hazard",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5e49ad2d005bc6e472",
+                "name": "⻋位未检出",
+                "enName": "the parking space has not been detected",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5f49ad2d005bc6e47a",
+                "name": "后⽅障碍物过近",
+                "enName": "rear obstacle too close",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5e49ad2d005bc6e475",
+                "name": "越过限位器⻛险",
+                "enName": "crossing the limiter hazard",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5f49ad2d005bc6e47b",
+                "name": "侧⾯障碍物过近",
+                "enName": "side obstacle too close",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5e27a11d0166efc965",
+                "name": "⻋位不可泊",
+                "enName": "the parking space is not available for parking.",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5f27a11d0166efc96a",
+                "name": "障碍物碰撞⻛险",
+                "enName": "obstacle collision hazard",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5f27a11d0166efc96d",
+                "name": "泊车系统退⾃动",
+                "enName": "parking system goes into automatic mode",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5e49ad2d005bc6e474",
+                "name": "⻋位检出错误",
+                "enName": "the parking space detection error",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd6049ad2d005bc6e47d",
+                "name": "⾮预期的操作结果",
+                "enName": "unexpected operation result",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5e49ad2d005bc6e473",
+                "name": "莫名退出⻋位搜索",
+                "enName": "the search for parking spaces has unexpectedly terminated",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5f49ad2d005bc6e477",
+                "name": "墙碰撞⻛险",
+                "enName": "wall collision hazard",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5f27a11d0166efc96e",
+                "name": "进不了⾃动",
+                "enName": "unable to enter automatic mode",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5e27a11d0166efc967",
+                "name": "车位位置误检",
+                "enName": "misdetected parking space position",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5e49ad2d005bc6e476",
+                "name": "⻋辆碰撞⻛险",
+                "enName": "vehicle collision hazard",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd6027a11d0166efc96f",
+                "name": "溜⻋",
+                "enName": "loose parking",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bd5e27a11d0166efc966",
+                "name": "泊车规划失败",
+                "enName": "parking plan failure",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "6476bd7127a11d0166efc970",
+            "name": "泊车非接管类",
+            "enName": "non-takeover class",
+            "match": false,
+            "children": [
+              {
+                "id": "6476bdb449ad2d005bc6e47e",
+                "name": "可泊车位误判",
+                "enName": "misjudgement of available parking spaces",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb427a11d0166efc972",
+                "name": "换档次数过多",
+                "enName": "too many gear changes",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb549ad2d005bc6e485",
+                "name": "负载过⾼",
+                "enName": "the load is too high",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb649ad2d005bc6e486",
+                "name": "车位检出不稳定",
+                "enName": "unstable parking detection",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb527a11d0166efc973",
+                "name": "泊⻋时间过长",
+                "enName": "long parking time",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb527a11d0166efc976",
+                "name": "撞击限位器过重",
+                "enName": "excessive impact on limiter",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb527a11d0166efc974",
+                "name": "不合理急刹",
+                "enName": "unreasonable emergency braking",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb527a11d0166efc978",
+                "name": "⻆度误差过⼤",
+                "enName": "large vertical error",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb627a11d0166efc97b",
+                "name": "泊入后位置靠后",
+                "enName": "unstable parking detection after landing",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb549ad2d005bc6e482",
+                "name": "撞击限位器后回弹",
+                "enName": "rebound after hitting limiter",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb527a11d0166efc977",
+                "name": "不合理压线",
+                "enName": "irrelevant parking line clearance",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb449ad2d005bc6e47f",
+                "name": "⽆效揉库",
+                "enName": "ineffective parallel parking",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb427a11d0166efc971",
+                "name": "⽆关⻋位误检",
+                "enName": "irrelevant parking space error detection",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb527a11d0166efc975",
+                "name": "⻋速过快",
+                "enName": "high speed",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb549ad2d005bc6e483",
+                "name": "横向误差过⼤",
+                "enName": "large lateral error",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb649ad2d005bc6e487",
+                "name": "车位检出不准",
+                "enName": "inaccurate parking detection",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb549ad2d005bc6e480",
+                "name": "纵向顿挫",
+                "enName": "vertical jerks",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb549ad2d005bc6e484",
+                "name": "⽅向盘未回正",
+                "enName": "steering angle not returned to center",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb627a11d0166efc97a",
+                "name": "泊入后位置靠前",
+                "enName": "parking in a front or rear position after landing",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb549ad2d005bc6e481",
+                "name": "⾏驶路线不合理",
+                "enName": "irrelevant driving route",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bdb627a11d0166efc979",
+                "name": "hmi显⽰异常",
+                "enName": "hmi display abnormalities",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6476bad149ad2d005bc6e449",
+        "name": "行车",
+        "enName": "driving",
+        "match": false,
+        "children": [
+          {
+            "id": "6476bc2927a11d0166efc94a",
+            "name": "行车非接管类",
+            "enName": "non-takeover class",
+            "match": false,
+            "children": [
+              {
+                "id": "6476bcaf27a11d0166efc957",
+                "name": "二次起步",
+                "enName": "secondary start",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf27a11d0166efc959",
+                "name": "终点/odd提示播报错误",
+                "enName": "end of route or odd display error",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf49ad2d005bc6e469",
+                "name": "制动过重",
+                "enName": "braking too hard",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcad27a11d0166efc94c",
+                "name": "变道不打转向灯",
+                "enName": "make illegal lane changes without signaling",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcad27a11d0166efc94d",
+                "name": "不合理变道",
+                "enName": "unreasonable lane change",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf49ad2d005bc6e466",
+                "name": "闪躲幅度过大",
+                "enName": "excessive lane changing",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf27a11d0166efc958",
+                "name": "跟车距离过远",
+                "enName": "too far following distance",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae27a11d0166efc952",
+                "name": "严重不居中",
+                "enName": "serious misalignment",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb027a11d0166efc95c",
+                "name": "加速不连续",
+                "enName": "inconsistent acceleration",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcad49ad2d005bc6e45b",
+                "name": "不合理返回",
+                "enName": "unreasonable return",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcad49ad2d005bc6e45d",
+                "name": "冲向匝道入口",
+                "enName": "panic driving towards entrance ramp",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae49ad2d005bc6e460",
+                "name": "不合理低速",
+                "enName": "unreasonable low speed",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae27a11d0166efc954",
+                "name": "制动不连续/顿挫",
+                "enName": "braking inconsistency or jerks",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf49ad2d005bc6e464",
+                "name": "功能激活猛打方向",
+                "enName": "function activation of strong steering",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae27a11d0166efc951",
+                "name": "连续变道",
+                "enName": "continuous lane changing",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae49ad2d005bc6e461",
+                "name": "未达到设定速度",
+                "enName": "not reaching set speed",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae27a11d0166efc955",
+                "name": "cutin/跟车/闪躲目标显示错误",
+                "enName": "cut-in or following or avoiding target display errors",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf49ad2d005bc6e467",
+                "name": "最晚变道点误/漏提示",
+                "enName": "late or missed turn signal prompt",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb027a11d0166efc961",
+                "name": "道路边缘碰撞恐慌感",
+                "enName": "road edge collision panic",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae27a11d0166efc953",
+                "name": "轻微误制动",
+                "enName": "slight incorrect braking",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf49ad2d005bc6e468",
+                "name": "轻微蛇形",
+                "enName": "snaking slightly",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcad49ad2d005bc6e45c",
+                "name": "长时间跟慢车",
+                "enName": "follow slow-moving vehicle for a long time",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae49ad2d005bc6e462",
+                "name": "转向过急",
+                "enName": "oversteer or understeer",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb027a11d0166efc95f",
+                "name": "危险变道恐慌感",
+                "enName": "panic during dangerous lane change or cut-in",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb127a11d0166efc963",
+                "name": "目标识别不稳定",
+                "enName": "unstable object recognition",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcad27a11d0166efc94e",
+                "name": "不避让不必要汇流口",
+                "enName": "failure to give way to unnecessary intersections",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae49ad2d005bc6e45f",
+                "name": "变道晃动",
+                "enName": "shaking while changing lanes",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf49ad2d005bc6e465",
+                "name": "起步慢",
+                "enName": "slow starting",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb049ad2d005bc6e46d",
+                "name": "cutin碰撞恐慌感",
+                "enName": "cut-in collision panic",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb027a11d0166efc95e",
+                "name": "转向灯错误",
+                "enName": "wrong turn signal usage",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb049ad2d005bc6e46f",
+                "name": "vru碰撞恐慌感",
+                "enName": "vru collision panic",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb049ad2d005bc6e470",
+                "name": "变道过慢",
+                "enName": "lane change too slow",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae49ad2d005bc6e45e",
+                "name": "冲向匝道出口",
+                "enName": "panic driving towards exit ramp",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf27a11d0166efc956",
+                "name": "大车无闪躲",
+                "enName": "large vehicle without lane departure warning or lane keeping assist",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf49ad2d005bc6e46a",
+                "name": "强烈误制动",
+                "enName": "strong incorrect braking",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb049ad2d005bc6e46b",
+                "name": "变道幅度过大",
+                "enName": "large turn angle",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb127a11d0166efc962",
+                "name": "hmi相关",
+                "enName": "hmi related",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae27a11d0166efc950",
+                "name": "方向盘抖动",
+                "enName": "steering wheel shaking",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb049ad2d005bc6e46e",
+                "name": "变道返回碰撞恐慌感",
+                "enName": "change of lane back collision panic",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcad49ad2d005bc6e45a",
+                "name": "1s甩头",
+                "enName": "1s vehicle yaw",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcad27a11d0166efc94f",
+                "name": "车速过快恐慌感",
+                "enName": "speed too fast, causing panic",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcae49ad2d005bc6e463",
+                "name": "功能激活急加/减速",
+                "enName": "function activation of rapid acceleration or deceleration",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf27a11d0166efc95a",
+                "name": "跟车碰撞恐慌感",
+                "enName": "following collision panic",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcad27a11d0166efc94b",
+                "name": "1s打灯",
+                "enName": "1s turn signals",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb027a11d0166efc95d",
+                "name": "降速过多",
+                "enName": "excessive deceleration",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb049ad2d005bc6e46c",
+                "name": "不合理换道",
+                "enName": "irrational lane change",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcaf27a11d0166efc95b",
+                "name": "弯道恐慌感",
+                "enName": "corner panic",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bcb027a11d0166efc960",
+                "name": "两侧车辆碰撞恐慌感",
+                "enName": "side-by-side vehicle collision panic",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "6476bade27a11d0166efc937",
+            "name": "行车接管类",
+            "enName": "takeover class",
+            "match": false,
+            "children": [
+              {
+                "id": "6476bbfe49ad2d005bc6e44c",
+                "name": "压实线行驶",
+                "enName": "driving on a hardline",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe27a11d0166efc93e",
+                "name": "非右一进匝道变道失败",
+                "enName": "failed to change lanes on the non-right side of an intersection",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe27a11d0166efc941",
+                "name": "二次起步碰撞风险",
+                "enName": "secondary start-up collision risk",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff49ad2d005bc6e458",
+                "name": "vru碰撞风险",
+                "enName": "vru collision risk",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe49ad2d005bc6e44f",
+                "name": "进出匝道失败",
+                "enName": "failed to enter or exit an intersection",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bc0049ad2d005bc6e459",
+                "name": "右一进匝道失败",
+                "enName": "right entry lane failure",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bc0027a11d0166efc949",
+                "name": "左一出匝道失败",
+                "enName": "left exit lane failure",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe49ad2d005bc6e452",
+                "name": "长时间未达到设定速度",
+                "enName": "timely acceleration failure",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfd49ad2d005bc6e44a",
+                "name": "变道返回碰撞风险",
+                "enName": "lane return collision risk",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfd27a11d0166efc93a",
+                "name": "道路边缘碰撞风险",
+                "enName": "edge of the road collision risk",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe49ad2d005bc6e451",
+                "name": "冲出当前车道",
+                "enName": "escaping from the current lane",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff27a11d0166efc944",
+                "name": "无法通行",
+                "enName": "inability to enter or exit autonomously",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfd27a11d0166efc939",
+                "name": "cutin碰撞风险",
+                "enName": "cut-in collision risk",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe49ad2d005bc6e44e",
+                "name": "odd外功能可以激活",
+                "enName": "odd external function activation",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff49ad2d005bc6e454",
+                "name": "未进行绕障",
+                "enName": "failure to perform obstacle avoidance",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfd27a11d0166efc93b",
+                "name": "实线变道",
+                "enName": "driving on a solid line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe49ad2d005bc6e44d",
+                "name": "误制动后车追尾风险",
+                "enName": "rear-end collision risk after incorrect braking",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff27a11d0166efc947",
+                "name": "锥桶碰撞风险",
+                "enName": "bumper collision risk",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff27a11d0166efc942",
+                "name": "严重蛇形",
+                "enName": "snaking severely",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bc0027a11d0166efc948",
+                "name": "功能无法升级",
+                "enName": "function cannot be upgraded",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfd27a11d0166efc938",
+                "name": "危险变道碰撞风险",
+                "enName": "risk of dangerous lane change collision",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe27a11d0166efc93d",
+                "name": "odd内系统降级",
+                "enName": "odd internal system deactivation",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff49ad2d005bc6e456",
+                "name": "横/纵向无控制",
+                "enName": "horizontal or vertical no control",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff49ad2d005bc6e457",
+                "name": "跟车起步过晚",
+                "enName": "following another vehicle start-up too late",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff27a11d0166efc943",
+                "name": "不合理刹停",
+                "enName": "unreasonable stopping",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff49ad2d005bc6e455",
+                "name": "无法进退自动",
+                "enName": "unable to enter or exit autonomously",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff27a11d0166efc946",
+                "name": "起步后速度过低",
+                "enName": "start-up with low speed after following another vehicle",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe27a11d0166efc93c",
+                "name": "跟车碰撞风险",
+                "enName": "following vehicle collision risk",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe27a11d0166efc940",
+                "name": "行驶方向错误",
+                "enName": "incorrect driving direction",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfd49ad2d005bc6e44b",
+                "name": "两侧车辆碰撞风险",
+                "enName": "collision risk between two vehicles",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff27a11d0166efc945",
+                "name": "odd内系统退自动",
+                "enName": "odd internal system deactivation during autonomous driving",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe27a11d0166efc93f",
+                "name": "非左一出匝道变道失败",
+                "enName": "failed to change lanes on the non-left side of an intersection",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbfe49ad2d005bc6e450",
+                "name": "道路变化处变道失败",
+                "enName": "failed to change lanes at a road transition point",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476bbff49ad2d005bc6e453",
+                "name": "超速行驶",
+                "enName": "speeding excessively",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6476b89e49ad2d005bc6e437",
+    "name": "规控评测",
+    "enName": "scenario label system of comprehensive evaluation",
+    "match": false,
+    "children": [
+      {
+        "id": "6476b8ab27a11d0166efc92a",
+        "name": "行车",
+        "enName": "driving",
+        "match": false,
+        "children": [
+          {
+            "id": "6476b8bc49ad2d005bc6e438",
+            "name": "车道保持",
+            "enName": "lane maintaining",
+            "match": false,
+            "children": [
+              {
+                "id": "6476b8e549ad2d005bc6e43a",
+                "name": "误制动",
+                "enName": "misfiring brakes",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476b8d927a11d0166efc92c",
+                "name": "跟车",
+                "enName": "following other vehicles",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476b8c827a11d0166efc92b",
+                "name": "切入",
+                "enName": "cut in",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476b8cf49ad2d005bc6e439",
+                "name": "切出",
+                "enName": "cut out",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "6476b92e27a11d0166efc92f",
+            "name": "借道",
+            "enName": "take a detour",
+            "match": false,
+            "children": [
+              {
+                "id": "6476b97f49ad2d005bc6e43d",
+                "name": "超车借道",
+                "enName": "overtake and take a detour",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "6476b9a549ad2d005bc6e441",
+            "name": "路口",
+            "enName": "intersection",
+            "match": false,
+            "children": [
+              {
+                "id": "6476b9ad49ad2d005bc6e442",
+                "name": "路口异常换道",
+                "enName": "junk lane change at intersection",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476b9b549ad2d005bc6e443",
+                "name": "路口乱打方向",
+                "enName": "junk direction changing at intersection",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "6476b8f027a11d0166efc92d",
+            "name": "换道",
+            "enName": "change lanes",
+            "match": false,
+            "children": [
+              {
+                "id": "6476b91c27a11d0166efc92e",
+                "name": "交互式换道",
+                "enName": "interactive lane changing",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476b92449ad2d005bc6e43c",
+                "name": "地图换道",
+                "enName": "map-based lane changing",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476b91149ad2d005bc6e43b",
+                "name": "超车换道",
+                "enName": "overtake and change lanes",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "6476b98849ad2d005bc6e43e",
+            "name": "起停",
+            "enName": "start-stop",
+            "match": false,
+            "children": [
+              {
+                "id": "6476b99949ad2d005bc6e440",
+                "name": "跟停异常",
+                "enName": "abnormal stop",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476b99149ad2d005bc6e43f",
+                "name": "起步异常",
+                "enName": "abnormal start",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6476b9c427a11d0166efc930",
+        "name": "泊车",
+        "enName": "parking",
+        "match": false,
+        "children": [
+          {
+            "id": "6476b9d149ad2d005bc6e444",
+            "name": "平行车位",
+            "enName": "horizontal parking space",
+            "match": false,
+            "children": [
+              {
+                "id": "6476ba0427a11d0166efc933",
+                "name": "泊入正常",
+                "enName": "parking Normal",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476b9fc49ad2d005bc6e446",
+                "name": "泊入异常",
+                "enName": "parking Exception",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "6476b9e549ad2d005bc6e445",
+            "name": "斜车位",
+            "enName": "sloping parking space",
+            "match": false,
+            "children": [
+              {
+                "id": "6476ba1b27a11d0166efc935",
+                "name": "泊入异常",
+                "enName": "parking Exception",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476ba2349ad2d005bc6e448",
+                "name": "泊入正常",
+                "enName": "parking Normal",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "6476b9dc27a11d0166efc931",
+            "name": "垂直车位",
+            "enName": "vertical parking space",
+            "match": false,
+            "children": [
+              {
+                "id": "6476ba0b27a11d0166efc934",
+                "name": "泊入正常",
+                "enName": "parking Normal",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6476ba1249ad2d005bc6e447",
+                "name": "泊入异常",
+                "enName": "parking Exception",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6475517adc895d71f574cac6",
+    "name": "超声波巡库感知评测",
+    "enName": "label system of scenario for acoustic emission monitoring and surveillance evaluation",
+    "match": false,
+    "children": [
+      {
+        "id": "647552eadc895d71f574cad3",
+        "name": "车位检测",
+        "enName": "parking Space Detection",
+        "match": false,
+        "children": [
+          {
+            "id": "647552f8efb6ca7063ea6a6f",
+            "name": "车位类型",
+            "enName": "parking space types",
+            "match": false,
+            "children": [
+              {
+                "id": "6582bfab221a024f892416b7",
+                "name": "[水平车位]车-库位-柱子",
+                "enName": "horizontal parking space-parking space with pillars",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c000221a024f892416be",
+                "name": "[水平车位]柱子-库位-车",
+                "enName": "horizontal parking space-pillars in parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c026221a024f892416c0",
+                "name": "[水平车位]车-库位-车",
+                "enName": "horizontal parking space-parking space for cars",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c07d221a024f892416c1",
+                "name": "[水平车位]车-库位-小障碍物-车",
+                "enName": "horizontal parking space-car in parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c09dfcdb84693cd9c681",
+                "name": "[水平车位]车-障碍物-库位-车",
+                "enName": "horizontal parking space-small obstacles in parking space for cars",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c0c2fcdb84693cd9c682",
+                "name": "[水平车位]车-车位中有放下的车位锁-车",
+                "enName": "horizontal parking space-obstacles between car and parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c0e0221a024f892416c8",
+                "name": "[水平车位]水平车辆-水平车位-垂直车辆",
+                "enName": "horizontal parking space-car with parked bay lock in parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c12d221a024f892416ce",
+                "name": "[水平车位]停车靠外的车辆-库位-正常姿势车辆",
+                "enName": "horizontal parking space-horizontal vehicles in horizontal parking spaces",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c14e221a024f892416d0",
+                "name": "[水平车位]正常停车车辆-库位-姿势倾斜车辆",
+                "enName": "horizontal parking space-vertical vehicles in vertical parking spaces",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c21a221a024f892416da",
+                "name": "[垂直车位]车-库位-车",
+                "enName": "vertical parking space-parking space for cars",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c235fcdb84693cd9c698",
+                "name": "[垂直车位]车-库位-柱子",
+                "enName": "vertical parking space-parking space with pillars",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c251fcdb84693cd9c69d",
+                "name": "[垂直车位]柱子-车-库位",
+                "enName": "vertical parking space-pillars in parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c26cfcdb84693cd9c6a1",
+                "name": "[垂直车位]车-带有限位桩的库位-车",
+                "enName": "vertical parking space-car in parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c286221a024f892416e5",
+                "name": "[垂直车位]柱子-带有限位桩的库位-车",
+                "enName": "vertical parking space-car with limited bay marker in parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c2a8fcdb84693cd9c6a7",
+                "name": "[垂直车位]车-带有限位桩的库位-柱子",
+                "enName": "vertical parking space-pillar with limited bay marker in parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c2c5fcdb84693cd9c6a9",
+                "name": "[垂直车位]车-车位-柱子-车",
+                "enName": "vertical parking space-car with limited bay marker in parking space and pillar",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c2df221a024f892416eb",
+                "name": "[垂直车位]车-柱子-车位-车",
+                "enName": "vertical parking space-parking space with column",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c2ff221a024f892416ed",
+                "name": "[垂直车位]垂直车辆-垂直车位-水平车辆",
+                "enName": "vertical parking space-column in parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c31b221a024f892416f0",
+                "name": "[垂直车位]右倾斜车辆-车位-左倾斜车辆",
+                "enName": "vertical parking space-vertical vehicle in vertical parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582c33d221a024f892416f5",
+                "name": "[垂直车位]车-车位-倾斜车辆",
+                "enName": "vertical parking space-horizontal vehicle in horizontal parking space",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "64755689dc895d71f574caef",
+            "name": "巡库距离",
+            "enName": "inspection distance of parking space",
+            "match": false,
+            "children": [
+              {
+                "id": "647556e2efb6ca7063ea6a87",
+                "name": "180~200cm",
+                "enName": "180~200cm",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647556e1dc895d71f574caf0",
+                "name": "60~80cm",
+                "enName": "60~80cm",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647556e2efb6ca7063ea6a85",
+                "name": "100~120cm",
+                "enName": "100~120cm",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647556e1efb6ca7063ea6a84",
+                "name": "80~100cm",
+                "enName": "80~100cm",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647556e2dc895d71f574caf1",
+                "name": "120~140cm",
+                "enName": "120~140cm",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647556e2efb6ca7063ea6a86",
+                "name": "160~180cm",
+                "enName": "160~180cm",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647556e2dc895d71f574caf2",
+                "name": "140~160cm",
+                "enName": "140~160cm",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "64755626efb6ca7063ea6a81",
+            "name": "有无车位线",
+            "enName": "is there a parking space line",
+            "match": false,
+            "children": [
+              {
+                "id": "64755635dc895d71f574caea",
+                "name": "无车位线",
+                "enName": "no parking space line",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6475563fdc895d71f574caeb",
+                "name": "有车位线",
+                "enName": "yes parking space line",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "647556f9dc895d71f574caf3",
+            "name": "库位宽度",
+            "enName": "parking space width",
+            "match": false,
+            "children": [
+              {
+                "id": "6582b819fcdb84693cd9c61c",
+                "name": "车位水平宽度-车长+0.8~车长+1.2",
+                "enName": "horizontal width-length of car + 0.8 to length of car + 1.2",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582b844221a024f89241667",
+                "name": "车位水平宽度-车长+1.2以上",
+                "enName": "horizontal width-length of car + 1.2 above",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582b8a5221a024f8924166e",
+                "name": "车位水平宽度-<车长+0.8",
+                "enName": "horizontal width-less than length of car + 0.8",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582b902221a024f89241671",
+                "name": "车位垂直宽度-车宽+0.5~车宽+8",
+                "enName": "vertical width-width of car + 0.5 to width of car + 8",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582b931fcdb84693cd9c626",
+                "name": "车位垂直宽度-车宽+0.8以上",
+                "enName": "vertical width-width of car + 0.8 above",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6582b95afcdb84693cd9c627",
+                "name": "车位垂直宽度-<车宽+0.5",
+                "enName": "vertical width-less than width of car + 0.5",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "64755655dc895d71f574caec",
+            "name": "车位边界",
+            "enName": "parking space boundary",
+            "match": false,
+            "children": [
+              {
+                "id": "6475567cdc895d71f574caee",
+                "name": "后方无墙壁",
+                "enName": "backward without wall",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6475566aefb6ca7063ea6a82",
+                "name": "有路沿",
+                "enName": "has curb",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "64755661dc895d71f574caed",
+                "name": "无路沿",
+                "enName": "no curb",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "64755674efb6ca7063ea6a83",
+                "name": "后方有墙壁",
+                "enName": "backward with wall",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "64755268dc895d71f574cad0",
+        "name": "自车状态",
+        "enName": "self driving status",
+        "match": false,
+        "children": [
+          {
+            "id": "64755275efb6ca7063ea6a68",
+            "name": "行车状态",
+            "enName": "vehicle moving status",
+            "match": false,
+            "children": [
+              {
+                "id": "6475528cefb6ca7063ea6a69",
+                "name": "半载",
+                "enName": "half load",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "64755295efb6ca7063ea6a6a",
+                "name": "满载",
+                "enName": "full load",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "64755283dc895d71f574cad1",
+                "name": "空载",
+                "enName": "empty load",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "647552a2efb6ca7063ea6a6b",
+            "name": "速度",
+            "enName": "speed",
+            "match": false,
+            "children": [
+              {
+                "id": "647552cbefb6ca7063ea6a6c",
+                "name": "10~15kmh",
+                "enName": "10~15kmh",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647552d3efb6ca7063ea6a6d",
+                "name": "15~20kmh",
+                "enName": "15~20kmh",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647552dcefb6ca7063ea6a6e",
+                "name": "20~25kmh",
+                "enName": "20~25kmh",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647552c0dc895d71f574cad2",
+                "name": "0~10kmh",
+                "enName": "0~10kmh",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6475518bdc895d71f574cac7",
+        "name": "外界环境",
+        "enName": "external environment",
+        "match": false,
+        "children": [
+          {
+            "id": "647551dddc895d71f574caca",
+            "name": "温度",
+            "enName": "temperature",
+            "match": false,
+            "children": [
+              {
+                "id": "647551f5efb6ca7063ea6a65",
+                "name": "<0℃",
+                "enName": "below 0℃",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "64755200dc895d71f574cacc",
+                "name": "30℃以上",
+                "enName": "above 30℃",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647551eddc895d71f574cacb",
+                "name": "15~30℃",
+                "enName": "15~30℃",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647551e6efb6ca7063ea6a64",
+                "name": "0~15℃",
+                "enName": "0~15℃",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "64755198efb6ca7063ea6a5f",
+            "name": "天气",
+            "enName": "weather",
+            "match": false,
+            "children": [
+              {
+                "id": "647551c9dc895d71f574cac9",
+                "name": "雾天",
+                "enName": "foggy day",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647551d0efb6ca7063ea6a63",
+                "name": "雪天",
+                "enName": "snowy day",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647551b4efb6ca7063ea6a61",
+                "name": "小雨天",
+                "enName": "light rain day",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647551abefb6ca7063ea6a60",
+                "name": "大雨天",
+                "enName": "heavy rain day",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647551bdefb6ca7063ea6a62",
+                "name": "阴天",
+                "enName": "cloudy day",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "647551a3dc895d71f574cac8",
+                "name": "晴天",
+                "enName": "sunny day",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "64755210dc895d71f574cacd",
+            "name": "场地",
+            "enName": "parking lot",
+            "match": false,
+            "children": [
+              {
+                "id": "64755255efb6ca7063ea6a67",
+                "name": "路边停车位",
+                "enName": "roadside parking space",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "64755244efb6ca7063ea6a66",
+                "name": "地面停车场",
+                "enName": "on-ground parking lot",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6475521adc895d71f574cace",
+                "name": "地下车库",
+                "enName": "underground garage",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "6475524ddc895d71f574cacf",
+                "name": "停车楼",
+                "enName": "car park building",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "65a7af04fc37cb3794c80c94",
+    "name": "城市数据采集场景",
+    "enName": "urban data collection scenarios",
+    "match": false,
+    "children": [
+      {
+        "id": "65a7b1336ce00b33a6e215e5",
+        "name": "时间",
+        "enName": "time",
+        "match": false,
+        "children": [
+          {
+            "id": "65a7b2816ce00b33a6e215f5",
+            "name": "时段",
+            "enName": "period of time",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b3036ce00b33a6e215fb",
+                "name": "白天",
+                "enName": "day",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b3036ce00b33a6e215fc",
+                "name": "傍晚",
+                "enName": "evening",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b303fc37cb3794c80cc6",
+                "name": "夜间",
+                "enName": "night",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b3036ce00b33a6e215fd",
+                "name": "凌晨",
+                "enName": "before dawn",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b28e6ce00b33a6e215f6",
+            "name": "季节",
+            "enName": "season",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b34bfc37cb3794c80cc9",
+                "name": "春",
+                "enName": "spring",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b34b6ce00b33a6e21600",
+                "name": "夏",
+                "enName": "summer",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b34b6ce00b33a6e21601",
+                "name": "秋",
+                "enName": "autumn",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b34bfc37cb3794c80cca",
+                "name": "冬",
+                "enName": "winter",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "65a7b246fc37cb3794c80cbb",
+        "name": "天气",
+        "enName": "weather",
+        "match": false,
+        "children": [
+          {
+            "id": "65a7bd346ce00b33a6e21639",
+            "name": "天气",
+            "enName": "weather",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7bd476ce00b33a6e2163a",
+                "name": "晴天",
+                "enName": "sunny",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7bd566ce00b33a6e2163b",
+                "name": "阴天",
+                "enName": "cloudy",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7bd6dfc37cb3794c80d04",
+                "name": "雨天",
+                "enName": "rain",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7bd7cfc37cb3794c80d05",
+                "name": "雪天",
+                "enName": "snowy",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7bd886ce00b33a6e2163e",
+                "name": "雨夹雪",
+                "enName": "sleet",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7bd93fc37cb3794c80d09",
+                "name": "雾天",
+                "enName": "foggy",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7bda8fc37cb3794c80d0a",
+                "name": "能见度极低的雾天",
+                "enName": "foggy days with extremely low visibility",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7bdb66ce00b33a6e21645",
+                "name": "台风",
+                "enName": "typhoon",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7bdc16ce00b33a6e21646",
+                "name": "暴雨",
+                "enName": "rainstorm",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "65a7b246fc37cb3794c80cbc",
+        "name": "城市",
+        "enName": "city",
+        "match": false,
+        "children": [
+          {
+            "id": "65a7bdd2fc37cb3794c80d0e",
+            "name": "城市",
+            "enName": "city",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7bde4fc37cb3794c80d10",
+                "name": "合肥",
+                "enName": "hefei",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7bdecfc37cb3794c80d11",
+                "name": "芜湖",
+                "enName": "wuhu",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7bdf46ce00b33a6e2164a",
+                "name": "无锡",
+                "enName": "wuxi",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7bdfb6ce00b33a6e2164b",
+                "name": "南昌",
+                "enName": "nanchang",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "65a7b2466ce00b33a6e215f1",
+        "name": "场景分布",
+        "enName": "scene distribution",
+        "match": false,
+        "children": [
+          {
+            "id": "65a7b470fc37cb3794c80ce3",
+            "name": "场景",
+            "enName": "scene",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b51efc37cb3794c80ce7",
+                "name": "主干道路(如望江路)",
+                "enName": "main roads",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b51e6ce00b33a6e21620",
+                "name": "老城区主要道路(如庐阳区部分道路)",
+                "enName": "main roads in the old urban area",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b51efc37cb3794c80ce8",
+                "name": "干扰较多道路(如芜湖路)",
+                "enName": "disturbance on roads",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b51e6ce00b33a6e21621",
+                "name": "夜间车流量道路",
+                "enName": "night traffic flow on roads",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a8de606ce00b33a6e216c4",
+                "name": "施工区域",
+                "enName": "Construction of iron sheet wall",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b4706ce00b33a6e21618",
+            "name": "背景",
+            "enName": "background",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b4bc6ce00b33a6e2161e",
+                "name": "建筑物背景参考",
+                "enName": "building background reference",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b4c56ce00b33a6e2161f",
+                "name": "地面标识参考",
+                "enName": "ground signage reference",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b4706ce00b33a6e21619",
+            "name": "动态元素",
+            "enName": "dynamic elements",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b5686ce00b33a6e21622",
+                "name": "拥堵",
+                "enName": "congestion",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b5686ce00b33a6e21623",
+                "name": "流量大",
+                "enName": "ample flow",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b568fc37cb3794c80ce9",
+                "name": "畅通",
+                "enName": "unblocked",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b4ae6ce00b33a6e2161d",
+            "name": "预先对道路进行调研分类分级",
+            "enName": "conduct preliminary research,classification,and grading of roads",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b62a6ce00b33a6e21627",
+                "name": "预先对道路进行调研分类分级",
+                "enName": "conduct preliminary research,classification,and grading of roads",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "65a7b2466ce00b33a6e215f2",
+        "name": "路口分布",
+        "enName": "intersection distribution",
+        "match": false,
+        "children": [
+          {
+            "id": "65a7b5b0fc37cb3794c80cea",
+            "name": "典型路口",
+            "enName": "typical intersection",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b5fdfc37cb3794c80ceb",
+                "name": "普通路口",
+                "enName": "ordinary intersection",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b5fd6ce00b33a6e21624",
+                "name": "超大路口",
+                "enName": "super large intersection",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b5fdfc37cb3794c80cec",
+                "name": "左转待转",
+                "enName": "turn left and wait to turn",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b5fd6ce00b33a6e21625",
+                "name": "直行待转",
+                "enName": "direct travel pending transfer",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b5fdfc37cb3794c80ced",
+                "name": "右转安全区",
+                "enName": "right turn safety zone",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b5fd6ce00b33a6e21626",
+                "name": "右转专用道",
+                "enName": "right turn lane",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b5fefc37cb3794c80cee",
+                "name": "右转切辅路",
+                "enName": "turn right and switch to the auxiliary road",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b63b6ce00b33a6e21628",
+            "name": "路口车道含有潮汐车道",
+            "enName": "the intersection lane contains tidal lanes",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b642fc37cb3794c80cef",
+                "name": "路口车道含有潮汐车道",
+                "enName": "the intersection lane contains tidal lanes",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "65a7b246fc37cb3794c80cbd",
+        "name": "标注",
+        "enName": "dimension",
+        "match": false,
+        "children": [
+          {
+            "id": "65a7b658fc37cb3794c80cf0",
+            "name": "自车状态",
+            "enName": "self-speed",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b6686ce00b33a6e21629",
+                "name": "自车加速",
+                "enName": "self_acceleration",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a8c5a9fc37cb3794c80d6e",
+                "name": "自车减速",
+                "enName": "self_moderate",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a8c67ffc37cb3794c80d6f",
+                "name": "自车怠速",
+                "enName": "self_idling",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a8d8876ce00b33a6e216c1",
+                "name": "紧急刹停",
+                "enName": "AEB",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b6706ce00b33a6e2162a",
+            "name": "目标障碍物",
+            "enName": "target_obstacles",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b681fc37cb3794c80cf1",
+                "name": "三轮清扫车&清洁工-会车",
+                "enName": "cleaner&tricycle_meet",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b68a6ce00b33a6e2162b",
+                "name": "二轮车-会车慢速【自行车、电动车】",
+                "enName": "two_wheel_vehicle_meet",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a8c8606ce00b33a6e216a6",
+                "name": "二轮车-纵向慢速【自行车、电动车】",
+                "enName": "two_wheel_vehicle_direction",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "65a7b2466ce00b33a6e215f3",
+        "name": "城市障碍物",
+        "enName": "urban obstacles",
+        "match": false,
+        "children": [
+          {
+            "id": "65a7b69cfc37cb3794c80cf2",
+            "name": "平面",
+            "enName": "plane",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b6e16ce00b33a6e2162c",
+                "name": "道路",
+                "enName": "road",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b6e16ce00b33a6e2162d",
+                "name": "非机动车道",
+                "enName": "Non motor vehicle lane",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b6e1fc37cb3794c80cf3",
+                "name": "人行道",
+                "enName": "sidewalk",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b6e16ce00b33a6e2162e",
+                "name": "路边停车位",
+                "enName": "Roadside parking spaces",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b6e1fc37cb3794c80cf4",
+                "name": "铁轨",
+                "enName": "rail",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b6f76ce00b33a6e2162f",
+            "name": "行人",
+            "enName": "pedestrian",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b7006ce00b33a6e21630",
+                "name": "行人",
+                "enName": "pedestrian",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b718fc37cb3794c80cf5",
+                "name": "骑车人",
+                "enName": "riders",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b7266ce00b33a6e21631",
+            "name": "车辆",
+            "enName": "vehicle",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b759fc37cb3794c80cf7",
+                "name": "卡车",
+                "enName": "truck",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b7596ce00b33a6e21632",
+                "name": "公交车",
+                "enName": "bus",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b7596ce00b33a6e21633",
+                "name": "在轨车辆",
+                "enName": "On orbit vehicles",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b759fc37cb3794c80cf8",
+                "name": "二轮车",
+                "enName": "two wheel vehicle",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a8bfa96ce00b33a6e216a2",
+                "name": "三轮车",
+                "enName": "tricycle",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a8e96f6ce00b33a6e216f8",
+                "name": "大车【货车、双层板车、大型工程车】",
+                "enName": "Large_Vehicle",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a8e97ffc37cb3794c80dc1",
+                "name": "小型车【轿车、JEEP、面包车等】",
+                "enName": "car",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a8e9916ce00b33a6e216f9",
+                "name": "工程车【水泥搅拌车、油罐车、电力车、绿化施工车】",
+                "enName": "engineering_vehicles",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a8e9a8fc37cb3794c80dc6",
+                "name": "异型车【颜色、改装奇特的车型】",
+                "enName": "special-shaped_car",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b768fc37cb3794c80cf9",
+            "name": "建筑物",
+            "enName": "building",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b79dfc37cb3794c80cfa",
+                "name": "施工铁皮墙",
+                "enName": "Construction of iron sheet wall",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b79dfc37cb3794c80cfb",
+                "name": "隧道",
+                "enName": "tunnel",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b79d6ce00b33a6e21634",
+                "name": "栅栏",
+                "enName": "fence",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b79d6ce00b33a6e21635",
+                "name": "地面凹洞",
+                "enName": "ground cavity",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b79dfc37cb3794c80cfc",
+                "name": "电线杆",
+                "enName": "telegraph pole",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b7ae6ce00b33a6e21636",
+            "name": "植物",
+            "enName": "plant",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b7b9fc37cb3794c80cfd",
+                "name": "草坪",
+                "enName": "lawn",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b7c0fc37cb3794c80cfe",
+                "name": "植物-树木",
+                "enName": "plants-Trees",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a8d8bf6ce00b33a6e216c2",
+            "name": "弯道",
+            "enName": "curve",
+            "match": false,
+            "children": [
+              {
+                "id": "65a8d917fc37cb3794c80d89",
+                "name": "大弯道>50m",
+                "enName": " wide_curve",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a8d9456ce00b33a6e216c3",
+                "name": "小弯道<50m",
+                "enName": "minor_curve",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "65a7b246fc37cb3794c80cbe",
+        "name": "道路背景",
+        "enName": "road background",
+        "match": false,
+        "children": [
+          {
+            "id": "65a7b7cffc37cb3794c80cff",
+            "name": "天空",
+            "enName": "sky",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b7defc37cb3794c80d00",
+                "name": "天空",
+                "enName": "sky",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b7eafc37cb3794c80d01",
+            "name": "建筑物",
+            "enName": "building",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b7f26ce00b33a6e21637",
+                "name": "建筑物",
+                "enName": "building",
+                "match": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "65a7b7fdfc37cb3794c80d02",
+            "name": "自然",
+            "enName": "nature",
+            "match": false,
+            "children": [
+              {
+                "id": "65a7b8056ce00b33a6e21638",
+                "name": "山",
+                "enName": "mountain",
+                "match": false,
+                "children": []
+              },
+              {
+                "id": "65a7b80efc37cb3794c80d03",
+                "name": "自然-树木",
+                "enName": "nature-Trees",
+                "match": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
